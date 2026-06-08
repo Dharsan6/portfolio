@@ -5,23 +5,22 @@ import ThemeToggle from './ui/ThemeToggle';
 import { personal } from '../data/portfolioData';
 
 const NAV_LINKS = [
-  { label: 'About',        href: '#about' },
-  { label: 'Projects',     href: '#projects' },
-  { label: 'Skills',       href: '#skills' },
-  { label: 'Achievements', href: '#achievements' },
-  { label: 'Contact',      href: '#contact' },
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 const Navbar = () => {
-  const [scrolled,    setScrolled]    = useState(false);
-  const [mobileOpen,  setMobileOpen]  = useState(false);
-  const [activeId,    setActiveId]    = useState('home');
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeId, setActiveId] = useState('home');
 
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const ids = ['home', 'projects', 'about', 'skills', 'achievements', 'certifications', 'contact'];
+      const ids = ['home', 'projects', 'about', 'skills', 'contact'];
       for (let i = ids.length - 1; i >= 0; i--) {
         const el = document.getElementById(ids[i]);
         if (el && window.scrollY >= el.offsetTop - 100) {
@@ -73,6 +72,7 @@ const Navbar = () => {
                 >
                   DS
                 </div>
+                <span style={{ color: 'var(--border-strong)' }}>|</span>
                 <span
                   style={{
                     fontFamily: 'var(--font-display)',

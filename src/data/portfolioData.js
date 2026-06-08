@@ -1,6 +1,6 @@
 // ================================================================
 // PORTFOLIO DATA — Single source of truth
-// dharsan.dev — Dharsan S
+// Dharsan S — Portfolio
 // ================================================================
 
 export const personal = {
@@ -14,7 +14,7 @@ export const personal = {
   location: "Coimbatore, India",
   email: "dharsan.s2024aiml@sece.ac.in",
   phone: "6374091213",
-  domain: "dharsan.dev",
+  domain: "Dharsan S",
   github: "https://github.com/Dharsan6",
   linkedin: "https://www.linkedin.com/in/dharsan-s-55702232a",
   leetcode: "https://leetcode.com/u/me_dharsan/",

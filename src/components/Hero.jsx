@@ -205,7 +205,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
-                className="btn btn-ghost"
+                className="btn btn-secondary"
               >
                 Resume
                 <FiExternalLink className="text-xs" />
@@ -226,9 +226,9 @@ const Hero = () => {
             </motion.div>
 
             {/* Stats */}
-            <div className="hidden lg:block">
+            {/* <div className="hidden lg:block">
               <StatStrip />
-            </div>
+            </div> */}
           </div>
 
           {/* ── Right: Profile avatar ── */}
@@ -253,9 +253,9 @@ const Hero = () => {
         </div>
 
         {/* Stats on mobile */}
-        <motion.div {...fadeUp(0.8)} className="lg:hidden mt-10">
+        {/* <motion.div {...fadeUp(0.8)} className="lg:hidden mt-10">
           <StatStrip />
-        </motion.div>
+        </motion.div> */}
 
         {/* Scroll indicator */}
         <motion.div

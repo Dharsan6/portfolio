@@ -30,8 +30,7 @@ const Footer = () => {
                 letterSpacing: '-0.02em',
               }}
             >
-              dharsan
-              <span style={{ color: 'var(--accent-primary)' }}>.dev</span>
+              Dharsan S
             </span>
             <span style={{ color: 'var(--border-default)' }}>·</span>
             <p style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--text-tertiary)', letterSpacing: '0.04em' }}>

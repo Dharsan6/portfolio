@@ -38,8 +38,9 @@ function App() {
         <Suspense fallback={<Fallback />}><Projects /></Suspense>
         <Suspense fallback={<Fallback />}><About /></Suspense>
         <Suspense fallback={<Fallback />}><Skills /></Suspense>
-        <Suspense fallback={<Fallback />}><ByTheNumbers /></Suspense>
-        <Suspense fallback={<Fallback />}><Certifications /></Suspense>
+        {/* Temporarily hidden for recruiter optimization */}
+        {/* <Suspense fallback={<Fallback />}><ByTheNumbers /></Suspense> */}
+        {/* <Suspense fallback={<Fallback />}><Certifications /></Suspense> */}
         <Suspense fallback={<Fallback />}><Contact /></Suspense>
       </main>
       <Footer />
